@@ -8,11 +8,11 @@ Vue.use(VueRouter)
 import {routes} from './routes';
 
 // Import helper class
-import User from './helpers/User';
+import User from './Helpers/User';
 window.User = User
 
 // Import Notification class
-import Notification from './helpers/Notification';
+import Notification from './Helpers/Notification';
 window.Notification = Notification
 
 //Swee alert 2 start
